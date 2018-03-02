@@ -1,11 +1,7 @@
 export default {
-  "entry" : "./src/1.mjs",
-  "resolve": {
-    "extensions": [".js", ".mjs"]
-  },
+  "mode": "production",
   "module": {
     "rules": [{
-        "test": /\.mjs$/,
         "loader": "babel-loader",
         "query": {
           "babelrc": false,
@@ -17,9 +13,5 @@ export default {
           ]
         }
       }]
-  },
-  "output": {
-    "path" : __dirname,
-    "filename": "bundle.js"
   }
 };
