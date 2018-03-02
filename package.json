@@ -1,6 +1,6 @@
 {
   "scripts": {
-    "start": "webpack && node bundle"
+    "start": "webpack && node ./dist/main.js"
   },
   "name": "31102017webpack",
   "version": "1.0.0",
