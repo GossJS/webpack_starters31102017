@@ -1,6 +1,5 @@
-import name from './2';
-const mixin = function(){return this*this};
-console.log(name);
+import mixin from './mixin';
+console.log('Should return 5 * 5 === 25');
 //Function.prototype.bind = function(){return ()=>'hahaha'};
 
 console.log( 5::mixin() );
